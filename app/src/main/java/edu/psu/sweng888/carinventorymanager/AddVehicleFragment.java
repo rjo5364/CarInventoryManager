@@ -96,7 +96,7 @@ public class AddVehicleFragment extends Fragment {
         vehicleData.put("price", Double.parseDouble(price));
         vehicleData.put("imageUrl", imageUrlText);
 
-        // Saves the vehicle data to the "vehicles" collection in Firebase Firestore
+        // Saves the vehicle data to the "vehicles" collection in Firebase Firestore, two collections in firestore ,users and Vehicles
         db.collection("Vehicles")
                 .add(vehicleData)
                 .addOnSuccessListener(documentReference -> {
