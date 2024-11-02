@@ -16,10 +16,12 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
+
+        // Delays for 2 seconds before navigating to LoginActivity
         new Handler().postDelayed(() -> {
             Intent intent = new Intent(SplashScreenActivity.this, LoginActivity.class);
             startActivity(intent);
-            finish();
-        }, 2000); // 2 seconds delay
+            finish(); // Closes the splash screen to prevent returning to it
+        }, 2000); // 2-second delay
     }
 }
