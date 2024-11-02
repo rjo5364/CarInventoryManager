@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="edu.psu.sweng888.carinventorymanager.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/vehicleListFragment"
+        android:name="edu.psu.sweng888.carinventorymanager.VehicleListFragment"
+        android:label="Vehicle List" />
+
+    <fragment
+        android:id="@+id/addVehicleFragment"
+        android:name="edu.psu.sweng888.carinventorymanager.AddVehicleFragment"
+        android:label="Add Vehicle" />
+</navigation>

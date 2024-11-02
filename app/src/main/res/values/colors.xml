@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color> <!-- black -->
+    <color name="white">#FFFFFF</color> <!-- white -->
+    <color name="gray">#737373</color> <!-- white -->
+
+    <color name="backgroundColor">#FFFFFF</color> <!-- White -->
+    <color name="lightBackgroundColor">#F5F5F5</color> <!-- Light Gray -->
+
+
+    <color name="textPrimary">#212121</color> <!-- Dark Gray -->
+    <color name="textSecondary">#757575</color> <!-- Medium Gray -->
+    <color name="textHint">#9E9E9E</color> <!-- Light Gray -->
+
+
+    <color name="errorColor">#B00020</color> <!-- Red for errors -->
+
+
+    <color name="buttonColor">#041E42</color> <!-- Matches primaryColor -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White text for contrast -->
+
+
+    <color name="dividerColor">#BDBDBD</color> <!-- Light Gray for dividers -->
+    <color name="borderColor">#E0E0E0</color> <!-- Very Light Gray for borders -->
+</resources>

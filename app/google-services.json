@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74713730171",
+    "project_id": "carinventorymanager",
+    "storage_bucket": "carinventorymanager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74713730171:android:992a676a0c5c3fdfafe6de",
+        "android_client_info": {
+          "package_name": "edu.psu.sweng888.carinventorymanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPD1sgyfvw3k-Ev8cOkSUFU3OTVFW3Crw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
